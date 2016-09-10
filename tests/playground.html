@@ -49,6 +49,15 @@
 <script src="../generators/dart/colour.js"></script>
 <script src="../generators/dart/variables.js"></script>
 <script src="../generators/dart/procedures.js"></script>
+<script src="../generators/pawn.js"></script>
+<script src="../generators/pawn/logic.js"></script>
+<script src="../generators/pawn/loops.js"></script>
+<script src="../generators/pawn/math.js"></script>
+<script src="../generators/pawn/text.js"></script>
+<script src="../generators/pawn/lists.js"></script>
+<script src="../generators/pawn/colour.js"></script>
+<script src="../generators/pawn/variables.js"></script>
+<script src="../generators/pawn/procedures.js"></script>
 <script src="../msg/messages.js"></script>
 <script src="../blocks/logic.js"></script>
 <script src="../blocks/loops.js"></script>
@@ -361,6 +370,8 @@ h1 {
     <input type="button" value="To Lua" onclick="toCode('Lua')">
     &nbsp;
     <input type="button" value="To Dart" onclick="toCode('Dart')">
+	&nbsp;
+    <input type="button" value="To Pawn" onclick="toCode('Pawn')">
     <br>
     <textarea id="importExport" style="width: 26%; height: 12em"
       onchange="taChange();" onkeyup="taChange()"></textarea>
